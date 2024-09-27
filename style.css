@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333333;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  height: 150vh;
+  width: 90%;
+  background-color: #333333;
+}
+.container img:hover {
+  transform: scale(1.04);
+  transition: all 0.5s ease-in-out;
+}/*# sourceMappingURL=style.css.map */
